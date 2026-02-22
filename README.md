@@ -22,6 +22,12 @@ Predict `charges` (medical insurance cost) based on:
 - **Smoker status** is the strongest driver of charges
 - Charges generally increase with **age** and **BMI**, especially for smokers
 
+```md
+### EDA Figures
+![Charges distribution](reports/figures/charges_distribution.png)
+![Charges by smoker](reports/figures/charges_by_smoker.png)
+![Charges vs age](reports/figures/charges_vs_age_smoker.png)
+```
 ## Modeling Results
 ### Baseline: Linear Regression
 - MAE: ~4,177
@@ -42,18 +48,21 @@ Top drivers:
 5. sex_male
 
 ## Project Structure
+
+```text
 insurance-cost-prediction/
 ├─ data/
-│ ├─ raw/
-│ └─ processed/
+│  ├─ raw/
+│  └─ processed/
 ├─ notebooks/
 ├─ src/
 ├─ reports/
-│ └─ figures/
+│  └─ figures/
 ├─ models/
+├─ .gitignore
 ├─ README.md
-└─ requirements.txt
-
+└─ requirements.txt 
+```
 ## Notebook:
 notebooks/02_final_report.ipynb
 
@@ -61,7 +70,9 @@ notebooks/02_final_report.ipynb
 models/insurance_cost_model_rf.joblib
 
 ## How to Run
-Run from project root: E:\Shubhangi\Python\insurance-cost-prediction
+Run from project root: 
+
+E:\Shubhangi\Python\insurance-cost-prediction
 pip install -r requirements.txt
 python src/make_figures.py
 python src/train.py
