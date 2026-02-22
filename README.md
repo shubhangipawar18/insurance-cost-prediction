@@ -24,9 +24,9 @@ Predict `charges` (medical insurance cost) based on:
 
 ```md
 ### EDA Figures
-![Charges distribution](reports/figures/charges_distribution.png)
-![Charges by smoker](reports/figures/charges_by_smoker.png)
-![Charges vs age](reports/figures/charges_vs_age_smoker.png)
+![Charges distribution](./reports/figures/charges_distribution.png)
+![Charges by smoker](./reports/figures/charges_by_smoker.png)
+![Charges vs age](./reports/figures/charges_vs_age_smoker.png)
 ```
 ## Modeling Results
 ### Baseline: Linear Regression
