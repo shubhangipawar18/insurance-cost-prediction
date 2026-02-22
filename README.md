@@ -81,5 +81,9 @@ python src/make_figures.py
 python src/train.py
 python src/predict.py
 ```
+
+### Certificate
+![Python_Certificate](Python_certificate.png)
+
 ## Author
 Shubhangi Pawar
