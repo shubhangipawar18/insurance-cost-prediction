@@ -61,22 +61,25 @@ insurance-cost-prediction/
 ├─ models/
 ├─ .gitignore
 ├─ README.md
-└─ requirements.txt 
+└─ requirements.txt
 ```
+
 ## Notebook:
 notebooks/02_final_report.ipynb
 
 ## Saved model:
 models/insurance_cost_model_rf.joblib
 
-## How to Run
-Run from project root: 
 
-E:\Shubhangi\Python\insurance-cost-prediction
+## How to Run
+
+From project root:
+
+```bash
 pip install -r requirements.txt
 python src/make_figures.py
 python src/train.py
 python src/predict.py
-
+```
 ## Author
 Shubhangi Pawar
