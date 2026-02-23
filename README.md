@@ -85,5 +85,6 @@ python src/predict.py
 ### Certificate
 ![Python_Certificate](Python_certificate.png)
 
-## Author
+[## Author
 Shubhangi Pawar
+](https://www.linkedin.com/in/shubhangipawar18/)
